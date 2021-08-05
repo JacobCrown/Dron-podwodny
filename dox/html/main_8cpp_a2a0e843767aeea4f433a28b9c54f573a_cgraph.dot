@@ -1,0 +1,11 @@
+digraph "menu"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20 [label="menu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="wektor\< double, 3 \>\l::quantity_now",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classwektor.html#a3f653ed43e9c384fe0f27df2873490ee"];
+  Node20 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="wektor\< double, 3 \>\l::quantity_all",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classwektor.html#a6a51f60abbbb2c2ec10a92bf97e524d2"];
+}

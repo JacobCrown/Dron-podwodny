@@ -1,0 +1,488 @@
+warning: The selected output language "polish" has not been updated
+since release 1.8.2.  As a result some sentences may appear in English.
+
+/home/jakub/Pulpit/visual_studio/pawlik elo elo/prj/inc/macierz3D.hh:37: warning: The following parameters of macierz3D::convertAngleToRadian(double data) const are not documented:
+  parameter 'data'
+/home/jakub/Pulpit/visual_studio/pawlik elo elo/prj/inc/macierz3D.hh:42: warning: The following parameters of macierz3D::convertRadianToAngle(double data) const are not documented:
+  parameter 'data'
+/home/jakub/Pulpit/visual_studio/pawlik elo elo/prj/inc/macierz3D.hh:61: warning: The following parameters of macierz3D::setRotationX(double angle) are not documented:
+  parameter 'angle'
+/home/jakub/Pulpit/visual_studio/pawlik elo elo/prj/inc/macierz3D.hh:67: warning: The following parameters of macierz3D::setRotationY(double angle) are not documented:
+  parameter 'angle'
+/home/jakub/Pulpit/visual_studio/pawlik elo elo/prj/inc/macierz3D.hh:73: warning: The following parameters of macierz3D::setRotationZ(double angle) are not documented:
+  parameter 'angle'
+/home/jakub/Pulpit/visual_studio/pawlik elo elo/prj/src/link.cpp:283: warning: unable to resolve link to `LaczeDoGNUPlota::DodajNazwe' for \link command
+/home/jakub/Pulpit/visual_studio/pawlik elo elo/prj/inc/link.hh:624: warning: unable to resolve link to `LaczeDoGNUPlota::DodajNazwe' for \link command
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/drone_8hh__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/drone_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/link_8hh__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/link_8hh__incl.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz_8hh__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz_8hh__dep__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/link_8hh__dep__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/link_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz_8hh_abf81f9359fc405f4b0fd875a3048e6f7_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz_8hh_abf81f9359fc405f4b0fd875a3048e6f7_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/drone_8hh__dep__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/drone_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz3_d_8hh__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz3_d_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz3_d_8hh__dep__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz3_d_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/scene_8hh__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/scene_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shape_8hh__dep__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shape_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/scene_8hh__dep__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/scene_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shapes_8hh__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shapes_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surface_8hh__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surface_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shapes_8hh__dep__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shapes_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wektor_8hh__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wektor_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surfaces_8hh__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surfaces_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wektor3_d_8hh__dep__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wektor3_d_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surfaces_8hh__dep__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surfaces_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wektor3_d_8hh__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wektor3_d_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wyznacznik_8hh_a5d695d77b570aac4b13e6088095a50fe_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wyznacznik_8hh_a5d695d77b570aac4b13e6088095a50fe_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wektor_8hh__dep__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wektor_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz3_d_8cpp__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz3_d_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/drone_8cpp__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/drone_8cpp__incl.png"'
+sh: 1: error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/link_8cpp__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/link_8cpp__incl.png"'
+dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wyznacznik_8hh__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wyznacznik_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surface_8hh__dep__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surface_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp_ac8bb3912a3ce86b15842e79d0b421204_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp_ac8bb3912a3ce86b15842e79d0b421204_icgraph.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp_a2a0e843767aeea4f433a28b9c54f573a_cgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp_a2a0e843767aeea4f433a28b9c54f573a_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surface_8cpp__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surface_8cpp__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classcube__inherit__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classcube__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shape_8cpp__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shape_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp_a2a0e843767aeea4f433a28b9c54f573a_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp_a2a0e843767aeea4f433a28b9c54f573a_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classdrone_a8d7782224b8bfe3cbdfca5e5975bd3b9_cgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classdrone_a8d7782224b8bfe3cbdfca5e5975bd3b9_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classcube__coll__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classcube__coll__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classdrone__coll__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classdrone__coll__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classground__inherit__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classground__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shape_8hh__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shape_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classhexa__coll__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classhexa__coll__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d__coll__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d__coll__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classground__coll__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classground__coll__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a3de6635080110f6909f1583c064d36d4_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a3de6635080110f6909f1583c064d36d4_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a3de6635080110f6909f1583c064d36d4_cgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a3de6635080110f6909f1583c064d36d4_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a51e67107a0ef6bac9de0b106520e0e37_cgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a51e67107a0ef6bac9de0b106520e0e37_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d__inherit__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_adcfa9be065de99af1bab86f6c312dd9c_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_adcfa9be065de99af1bab86f6c312dd9c_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a16166e41f063ad2e6fcaf61a42e13610_cgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a16166e41f063ad2e6fcaf61a42e13610_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/scene_8cpp__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/scene_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz__inherit__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a16166e41f063ad2e6fcaf61a42e13610_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a16166e41f063ad2e6fcaf61a42e13610_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classhexa__inherit__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classhexa__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a3bd69a608d9f3caa3f73b9e783d9a5e7_cgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a3bd69a608d9f3caa3f73b9e783d9a5e7_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a577e19c88b86b5316947c3a890b775e5_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a577e19c88b86b5316947c3a890b775e5_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a9aa9ada9a430c2f0206f480f39a8117c_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a9aa9ada9a430c2f0206f480f39a8117c_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_ab0c8bffbe8f1d38657895c2ddb20d2e6_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_ab0c8bffbe8f1d38657895c2ddb20d2e6_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_af904c8b63ad0759f37c81b2a843874a9_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_af904c8b63ad0759f37c81b2a843874a9_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape__inherit__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a3bd69a608d9f3caa3f73b9e783d9a5e7_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a3bd69a608d9f3caa3f73b9e783d9a5e7_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_a50b8ce90802becc732c560b57d024801_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_a50b8ce90802becc732c560b57d024801_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ad7a4d1e85f10fcb4f100adec81fc0563_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ad7a4d1e85f10fcb4f100adec81fc0563_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ad7a4d1e85f10fcb4f100adec81fc0563_cgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ad7a4d1e85f10fcb4f100adec81fc0563_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wyznacznik_8hh__dep__incl.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wyznacznik_8hh__dep__incl.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene__coll__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ab2e96315f82d0cf3a24137dfffe7ffc0_cgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ab2e96315f82d0cf3a24137dfffe7ffc0_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ae1ae139b2ab9166f5bc46c32003cf5cd_cgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ae1ae139b2ab9166f5bc46c32003cf5cd_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_aa1a2d4e309a6f48b0cd6a8f413e7cad7_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_aa1a2d4e309a6f48b0cd6a8f413e7cad7_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classsurface__coll__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classsurface__coll__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ac53915874f4bec83c9c7967aa245f4b3_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ac53915874f4bec83c9c7967aa245f4b3_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape__coll__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape__coll__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor__inherit__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwater__inherit__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwater__inherit__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor3_d__inherit__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor3_d__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwater__coll__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwater__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor__coll__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor__coll__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/namespace_pz_g_ae1ae4d36f66c77879380ba73da8e20e3_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/namespace_pz_g_ae1ae4d36f66c77879380ba73da8e20e3_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor3_d__coll__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor3_d__coll__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/dir_4aa64b0872d36146e049722e293482e3_dep.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/dir_4aa64b0872d36146e049722e293482e3_dep.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_0.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_0.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_1.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_1.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/dir_400757c3a0df52e783ed9699284f29ce_dep.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/dir_400757c3a0df52e783ed9699284f29ce_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/graph_legend.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/graph_legend.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a34bd48f57c0fd69c12bf4127a1cacd8f_cgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a34bd48f57c0fd69c12bf4127a1cacd8f_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a58f4889c5f656a36a4b0e3d28fbddde5_cgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a58f4889c5f656a36a4b0e3d28fbddde5_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_3.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_3.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_6.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_6.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_2.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_2.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_5.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_5.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_9.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_9.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_4.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_4.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_7.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_7.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_8.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_8.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classsurface__inherit__graph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classsurface__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor_aa5a621cd6b8f93b7c689f7f51dcc988a_icgraph.dot" -Tpng -o "/home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor_aa5a621cd6b8f93b7c689f7f51dcc988a_icgraph.png"'
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/drone_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/drone_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/link_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/link_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz_8hh_abf81f9359fc405f4b0fd875a3048e6f7_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz3_d_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz3_d_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/scene_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/scene_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shape_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shape_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shapes_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shapes_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surface_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surface_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surfaces_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surfaces_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wektor_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wektor_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wektor3_d_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wektor3_d_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wyznacznik_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wyznacznik_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/wyznacznik_8hh_a5d695d77b570aac4b13e6088095a50fe_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/drone_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/link_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/macierz3_d_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp_ac8bb3912a3ce86b15842e79d0b421204_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp_a2a0e843767aeea4f433a28b9c54f573a_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/main_8cpp_a2a0e843767aeea4f433a28b9c54f573a_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/scene_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/shape_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/surface_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classcube__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classcube__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classdrone__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classdrone_a8d7782224b8bfe3cbdfca5e5975bd3b9_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classground__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classground__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classhexa__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classhexa__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_adcfa9be065de99af1bab86f6c312dd9c_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a3de6635080110f6909f1583c064d36d4_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a3de6635080110f6909f1583c064d36d4_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a51e67107a0ef6bac9de0b106520e0e37_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a16166e41f063ad2e6fcaf61a42e13610_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classmacierz3_d_a16166e41f063ad2e6fcaf61a42e13610_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a3bd69a608d9f3caa3f73b9e783d9a5e7_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a3bd69a608d9f3caa3f73b9e783d9a5e7_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a58f4889c5f656a36a4b0e3d28fbddde5_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a577e19c88b86b5316947c3a890b775e5_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_af904c8b63ad0759f37c81b2a843874a9_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_a9aa9ada9a430c2f0206f480f39a8117c_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classscene_ab0c8bffbe8f1d38657895c2ddb20d2e6_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_aa1a2d4e309a6f48b0cd6a8f413e7cad7_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_a50b8ce90802becc732c560b57d024801_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ad7a4d1e85f10fcb4f100adec81fc0563_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ad7a4d1e85f10fcb4f100adec81fc0563_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ab2e96315f82d0cf3a24137dfffe7ffc0_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ae1ae139b2ab9166f5bc46c32003cf5cd_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classshape_ac53915874f4bec83c9c7967aa245f4b3_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classsurface__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classsurface__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwater__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwater__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor_aa5a621cd6b8f93b7c689f7f51dcc988a_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor3_d__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/classwektor3_d__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/namespace_pz_g_ae1ae4d36f66c77879380ba73da8e20e3_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a34bd48f57c0fd69c12bf4127a1cacd8f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/dir_4aa64b0872d36146e049722e293482e3_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/dir_400757c3a0df52e783ed9699284f29ce_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_0.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_1.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_2.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_3.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_4.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_5.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_6.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_7.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_8.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jakub/Pulpit/visual_studio/pawlik elo elo/dox/html/inherit_graph_9.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+*** Doxygen has finished

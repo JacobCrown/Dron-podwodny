@@ -1,0 +1,16 @@
+digraph "surface"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="surface",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="ground",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classground.html",tooltip="Modeluje pojęcie powierzchni dna. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="shape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classshape.html",tooltip="Modeluje pojęcie kształtu. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cube",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcube.html",tooltip="Modeluje pojęcie prostopadłościanu. "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="hexa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classhexa.html",tooltip="Modeluje pojęcie graniastosłupa o podstawie sześciokąta. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="water",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classwater.html",tooltip="Modeluje pojęcie powierzchni wody. "];
+}

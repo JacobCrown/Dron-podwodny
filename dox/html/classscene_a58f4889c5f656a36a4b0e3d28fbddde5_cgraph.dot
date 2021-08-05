@@ -1,0 +1,9 @@
+digraph "scene::colision"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="scene::colision",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="wektor::length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classwektor.html#aa5a621cd6b8f93b7c689f7f51dcc988a"];
+}

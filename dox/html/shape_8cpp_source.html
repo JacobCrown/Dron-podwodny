@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron z przeszkodami: Plik źródłowy /home/jakub/Pulpit/visual_studio/pawlik elo elo/prj/src/shape.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron z przeszkodami
+   &#160;<span id="projectnumber">0,1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('shape_8cpp_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">shape.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="shape_8cpp.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="shape_8hh.html">shape.hh</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classshape.html#ad9d70add7fa9da26232c2b89ed01892c">   10</a></span>&#160;<a class="code" href="classwektor3_d.html">wektor3D</a> <a class="code" href="classshape.html#ad9d70add7fa9da26232c2b89ed01892c">shape::setTrans</a>(<span class="keywordtype">double</span> n_angle, <span class="keywordtype">double</span> length)<span class="keyword"> const</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword"></span>{</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="classwektor3_d.html">wektor3D</a> tmp;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    tmp[0] = (cos((*this).angleToRadian(n_angle)) * length) * cos((*this).angleToRadian(angle));</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    tmp[1] = (cos((*this).angleToRadian(n_angle)) * length) * sin((*this).angleToRadian(angle));</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    tmp[2] = (sin((*this).angleToRadian(n_angle)) * length);</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">return</span> tmp;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classshape.html#a65ec62052b06774daca47f811d404c4c">   19</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classshape.html#a65ec62052b06774daca47f811d404c4c">shape::moveStraigth</a>(<span class="keywordtype">double</span> n_angle, <span class="keywordtype">double</span> lenght, <span class="keywordtype">double</span> animation)</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="classwektor3_d.html">wektor3D</a> tmp = (*this).setTrans(n_angle, lenght);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    tmp /= animation;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    (*this).translate(tmp);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    (*this).save();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    (*this).trans += tmp;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classshape.html#a00329315ce566bd4fdf8a1aa2288a099">   29</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classshape.html#a00329315ce566bd4fdf8a1aa2288a099">shape::rotate</a>(<span class="keywordtype">double</span> n_angle)</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    (*this).turnByAng(n_angle);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    (*this).save();</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classshape.html#ae1ae139b2ab9166f5bc46c32003cf5cd">   35</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classshape.html#ae1ae139b2ab9166f5bc46c32003cf5cd">shape::spin</a>()</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;{</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="classmacierz3_d.html">macierz3D</a> tmp;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    tmp.<a class="code" href="classmacierz3_d.html#a3de6635080110f6909f1583c064d36d4">setRotationX</a>(20);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; (int)vertex.size(); i++) {vertex[i] = tmp * vertex[i];}</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classshape.html#ab2e96315f82d0cf3a24137dfffe7ffc0">   42</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classshape.html#ab2e96315f82d0cf3a24137dfffe7ffc0">shape::save</a>()</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    ofstream str_out(file_tmp);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="classmacierz3_d.html">macierz3D</a> rot;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    rot.<a class="code" href="classmacierz3_d.html#a16166e41f063ad2e6fcaf61a42e13610">setRotationZ</a>(angle);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="classwektor3_d.html">wektor3D</a> tmp;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; (int)vertex.size(); i++)</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        tmp = rot * vertex[i] + trans;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        str_out &lt;&lt; tmp &lt;&lt; endl;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="classshape.html#ad7a4d1e85f10fcb4f100adec81fc0563">   58</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classshape.html#ab2e96315f82d0cf3a24137dfffe7ffc0">shape::save</a>(<span class="keyword">const</span> <a class="code" href="classwektor3_d.html">wektor3D</a> &amp; data)</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    ofstream str_out(file_tmp);</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="classmacierz3_d.html">macierz3D</a> rot;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    rot.<a class="code" href="classmacierz3_d.html#a16166e41f063ad2e6fcaf61a42e13610">setRotationZ</a>(angle);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="classwektor3_d.html">wektor3D</a> tmp;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; (int)vertex.size(); i++)</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    {</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        tmp = rot * (vertex[i] + data) + trans;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        str_out &lt;&lt; tmp &lt;&lt; endl;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div><div class="ttc" id="classmacierz3_d_html"><div class="ttname"><a href="classmacierz3_d.html">macierz3D</a></div><div class="ttdoc">Modeluje pojęcie Macierzy rotacji. </div><div class="ttdef"><b>Definition:</b> <a href="macierz3_d_8hh_source.html#l00029">macierz3D.hh:29</a></div></div>
+<div class="ttc" id="classshape_html_ab2e96315f82d0cf3a24137dfffe7ffc0"><div class="ttname"><a href="classshape.html#ab2e96315f82d0cf3a24137dfffe7ffc0">shape::save</a></div><div class="ttdeci">void save()</div><div class="ttdoc">zapisuje aktualne położenie kształtu do pliku </div><div class="ttdef"><b>Definition:</b> <a href="shape_8cpp_source.html#l00042">shape.cpp:42</a></div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="classmacierz3_d_html_a16166e41f063ad2e6fcaf61a42e13610"><div class="ttname"><a href="classmacierz3_d.html#a16166e41f063ad2e6fcaf61a42e13610">macierz3D::setRotationZ</a></div><div class="ttdeci">void setRotationZ(double)</div><div class="ttdef"><b>Definition:</b> <a href="macierz3_d_8cpp_source.html#l00072">macierz3D.cpp:72</a></div></div>
+<div class="ttc" id="classwektor3_d_html"><div class="ttname"><a href="classwektor3_d.html">wektor3D</a></div><div class="ttdoc">Modeluje pojęcie wektorów w 3 wymiarach. </div><div class="ttdef"><b>Definition:</b> <a href="wektor3_d_8hh_source.html#l00027">wektor3D.hh:27</a></div></div>
+<div class="ttc" id="shape_8hh_html"><div class="ttname"><a href="shape_8hh.html">shape.hh</a></div><div class="ttdoc">Definicja metody klasy shape. </div></div>
+<div class="ttc" id="classmacierz3_d_html_a3de6635080110f6909f1583c064d36d4"><div class="ttname"><a href="classmacierz3_d.html#a3de6635080110f6909f1583c064d36d4">macierz3D::setRotationX</a></div><div class="ttdeci">void setRotationX(double)</div><div class="ttdef"><b>Definition:</b> <a href="macierz3_d_8cpp_source.html#l00041">macierz3D.cpp:41</a></div></div>
+<div class="ttc" id="classshape_html_ae1ae139b2ab9166f5bc46c32003cf5cd"><div class="ttname"><a href="classshape.html#ae1ae139b2ab9166f5bc46c32003cf5cd">shape::spin</a></div><div class="ttdeci">void spin()</div><div class="ttdoc">Kręć się wokół własnej osi. </div><div class="ttdef"><b>Definition:</b> <a href="shape_8cpp_source.html#l00035">shape.cpp:35</a></div></div>
+<div class="ttc" id="classshape_html_a00329315ce566bd4fdf8a1aa2288a099"><div class="ttname"><a href="classshape.html#a00329315ce566bd4fdf8a1aa2288a099">shape::rotate</a></div><div class="ttdeci">void rotate(double)</div><div class="ttdoc">Obróć się o zadany kąt. </div><div class="ttdef"><b>Definition:</b> <a href="shape_8cpp_source.html#l00029">shape.cpp:29</a></div></div>
+<div class="ttc" id="classshape_html_a65ec62052b06774daca47f811d404c4c"><div class="ttname"><a href="classshape.html#a65ec62052b06774daca47f811d404c4c">shape::moveStraigth</a></div><div class="ttdeci">void moveStraigth(double, double, double)</div><div class="ttdoc">zadaj ruch na wprost </div><div class="ttdef"><b>Definition:</b> <a href="shape_8cpp_source.html#l00019">shape.cpp:19</a></div></div>
+<div class="ttc" id="classshape_html_ad9d70add7fa9da26232c2b89ed01892c"><div class="ttname"><a href="classshape.html#ad9d70add7fa9da26232c2b89ed01892c">shape::setTrans</a></div><div class="ttdeci">wektor3D setTrans(double, double) const</div><div class="ttdef"><b>Definition:</b> <a href="shape_8cpp_source.html#l00010">shape.cpp:10</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_400757c3a0df52e783ed9699284f29ce.html">src</a></li><li class="navelem"><a class="el" href="shape_8cpp.html">shape.cpp</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

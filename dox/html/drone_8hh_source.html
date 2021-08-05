@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron z przeszkodami: Plik źródłowy /home/jakub/Pulpit/visual_studio/pawlik elo elo/prj/inc/drone.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron z przeszkodami
+   &#160;<span id="projectnumber">0,1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('drone_8hh_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">drone.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="drone_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DRONE_HH</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define DRONE_HH</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="shapes_8hh.html">shapes.hh</a>&quot;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">/*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */</span></div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classdrone.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="classdrone.html">drone</a></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">protected</span>:</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classdrone.html#a1691d44386d9fca725842a12d619e017">   27</a></span>&#160;    <a class="code" href="classcube.html">cube</a> <a class="code" href="classdrone.html#a1691d44386d9fca725842a12d619e017">korpus</a>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classdrone.html#a5536632a27df8862c620b4d7d83811af">   29</a></span>&#160;    <a class="code" href="classhexa.html">hexa</a> <a class="code" href="classdrone.html#a5536632a27df8862c620b4d7d83811af">rotor1</a>;</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classdrone.html#acdd621ec4e01fe3c0c7a7183968a5e89">   30</a></span>&#160;    <a class="code" href="classhexa.html">hexa</a> <a class="code" href="classdrone.html#acdd621ec4e01fe3c0c7a7183968a5e89">rotor2</a>;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classdrone.html#a9a52b1beb50f55fc8d3b44b546bb1264">   31</a></span>&#160;    <a class="code" href="classhexa.html">hexa</a> <a class="code" href="classdrone.html#a9a52b1beb50f55fc8d3b44b546bb1264">rotor3</a>;</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classdrone.html#a42ebb78245403e58e5fab3a3063c45a7">   32</a></span>&#160;    <a class="code" href="classhexa.html">hexa</a> <a class="code" href="classdrone.html#a42ebb78245403e58e5fab3a3063c45a7">rotor4</a>;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classdrone.html#adb554a0d426fbdf076ead14580576f89">   34</a></span>&#160;    <a class="code" href="classwektor3_d.html">wektor3D</a> <a class="code" href="classdrone.html#adb554a0d426fbdf076ead14580576f89">rotor1_trans</a>;</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classdrone.html#a12a912cb68653756309fe12745ac2c23">   35</a></span>&#160;    <a class="code" href="classwektor3_d.html">wektor3D</a> <a class="code" href="classdrone.html#a12a912cb68653756309fe12745ac2c23">rotor2_trans</a>;</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classdrone.html#ab4c54f70d96513423fbb4ebab9c840c7">   36</a></span>&#160;    <a class="code" href="classwektor3_d.html">wektor3D</a> <a class="code" href="classdrone.html#ab4c54f70d96513423fbb4ebab9c840c7">rotor3_trans</a>;</div><div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classdrone.html#af15995569f5d001b92659de68da69819">   37</a></span>&#160;    <a class="code" href="classwektor3_d.html">wektor3D</a> <a class="code" href="classdrone.html#af15995569f5d001b92659de68da69819">rotor4_trans</a>;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="classdrone.html">drone</a>();</div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classdrone.html#a8d7782224b8bfe3cbdfca5e5975bd3b9">   49</a></span>&#160;    <a class="code" href="classwektor3_d.html">wektor3D</a> <a class="code" href="classdrone.html#a8d7782224b8bfe3cbdfca5e5975bd3b9">returnCenter</a>()<span class="keyword"> const   </span>{<span class="keywordflow">return</span> korpus.<a class="code" href="classshape.html#a50b8ce90802becc732c560b57d024801">returnCenter</a>();}</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> turnByAng(<span class="keyword">const</span> <span class="keywordtype">double</span> &amp;);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> translate(<span class="keyword">const</span> <a class="code" href="classwektor3_d.html">wektor3D</a> &amp;);</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> moveStraigth(<span class="keyword">const</span> <span class="keywordtype">double</span> &amp;, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp;, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp;);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> rotate(<span class="keyword">const</span> <span class="keywordtype">double</span> &amp;);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">void</span> save();</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;};</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">/*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */</span></div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classdrone_html_ab4c54f70d96513423fbb4ebab9c840c7"><div class="ttname"><a href="classdrone.html#ab4c54f70d96513423fbb4ebab9c840c7">drone::rotor3_trans</a></div><div class="ttdeci">wektor3D rotor3_trans</div><div class="ttdef"><b>Definition:</b> <a href="drone_8hh_source.html#l00036">drone.hh:36</a></div></div>
+<div class="ttc" id="classdrone_html"><div class="ttname"><a href="classdrone.html">drone</a></div><div class="ttdoc">Modeluje pojęcie drona. </div><div class="ttdef"><b>Definition:</b> <a href="drone_8hh_source.html#l00023">drone.hh:23</a></div></div>
+<div class="ttc" id="classdrone_html_a1691d44386d9fca725842a12d619e017"><div class="ttname"><a href="classdrone.html#a1691d44386d9fca725842a12d619e017">drone::korpus</a></div><div class="ttdeci">cube korpus</div><div class="ttdef"><b>Definition:</b> <a href="drone_8hh_source.html#l00027">drone.hh:27</a></div></div>
+<div class="ttc" id="classhexa_html"><div class="ttname"><a href="classhexa.html">hexa</a></div><div class="ttdoc">Modeluje pojęcie graniastosłupa o podstawie sześciokąta. </div><div class="ttdef"><b>Definition:</b> <a href="shapes_8hh_source.html#l00039">shapes.hh:39</a></div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="classshape_html_a50b8ce90802becc732c560b57d024801"><div class="ttname"><a href="classshape.html#a50b8ce90802becc732c560b57d024801">shape::returnCenter</a></div><div class="ttdeci">wektor3D returnCenter() const</div><div class="ttdoc">powraca do początkowej pozycji </div><div class="ttdef"><b>Definition:</b> <a href="shape_8hh_source.html#l00082">shape.hh:82</a></div></div>
+<div class="ttc" id="classdrone_html_a12a912cb68653756309fe12745ac2c23"><div class="ttname"><a href="classdrone.html#a12a912cb68653756309fe12745ac2c23">drone::rotor2_trans</a></div><div class="ttdeci">wektor3D rotor2_trans</div><div class="ttdef"><b>Definition:</b> <a href="drone_8hh_source.html#l00035">drone.hh:35</a></div></div>
+<div class="ttc" id="shapes_8hh_html"><div class="ttname"><a href="shapes_8hh.html">shapes.hh</a></div><div class="ttdoc">Definicja metody klasy shapes. </div></div>
+<div class="ttc" id="classdrone_html_a8d7782224b8bfe3cbdfca5e5975bd3b9"><div class="ttname"><a href="classdrone.html#a8d7782224b8bfe3cbdfca5e5975bd3b9">drone::returnCenter</a></div><div class="ttdeci">wektor3D returnCenter() const</div><div class="ttdoc">wraca drona do pierwotnej pozycji </div><div class="ttdef"><b>Definition:</b> <a href="drone_8hh_source.html#l00049">drone.hh:49</a></div></div>
+<div class="ttc" id="classwektor3_d_html"><div class="ttname"><a href="classwektor3_d.html">wektor3D</a></div><div class="ttdoc">Modeluje pojęcie wektorów w 3 wymiarach. </div><div class="ttdef"><b>Definition:</b> <a href="wektor3_d_8hh_source.html#l00027">wektor3D.hh:27</a></div></div>
+<div class="ttc" id="classdrone_html_a42ebb78245403e58e5fab3a3063c45a7"><div class="ttname"><a href="classdrone.html#a42ebb78245403e58e5fab3a3063c45a7">drone::rotor4</a></div><div class="ttdeci">hexa rotor4</div><div class="ttdef"><b>Definition:</b> <a href="drone_8hh_source.html#l00032">drone.hh:32</a></div></div>
+<div class="ttc" id="classdrone_html_af15995569f5d001b92659de68da69819"><div class="ttname"><a href="classdrone.html#af15995569f5d001b92659de68da69819">drone::rotor4_trans</a></div><div class="ttdeci">wektor3D rotor4_trans</div><div class="ttdef"><b>Definition:</b> <a href="drone_8hh_source.html#l00037">drone.hh:37</a></div></div>
+<div class="ttc" id="classdrone_html_adb554a0d426fbdf076ead14580576f89"><div class="ttname"><a href="classdrone.html#adb554a0d426fbdf076ead14580576f89">drone::rotor1_trans</a></div><div class="ttdeci">wektor3D rotor1_trans</div><div class="ttdef"><b>Definition:</b> <a href="drone_8hh_source.html#l00034">drone.hh:34</a></div></div>
+<div class="ttc" id="classdrone_html_a5536632a27df8862c620b4d7d83811af"><div class="ttname"><a href="classdrone.html#a5536632a27df8862c620b4d7d83811af">drone::rotor1</a></div><div class="ttdeci">hexa rotor1</div><div class="ttdef"><b>Definition:</b> <a href="drone_8hh_source.html#l00029">drone.hh:29</a></div></div>
+<div class="ttc" id="classcube_html"><div class="ttname"><a href="classcube.html">cube</a></div><div class="ttdoc">Modeluje pojęcie prostopadłościanu. </div><div class="ttdef"><b>Definition:</b> <a href="shapes_8hh_source.html#l00025">shapes.hh:25</a></div></div>
+<div class="ttc" id="classdrone_html_acdd621ec4e01fe3c0c7a7183968a5e89"><div class="ttname"><a href="classdrone.html#acdd621ec4e01fe3c0c7a7183968a5e89">drone::rotor2</a></div><div class="ttdeci">hexa rotor2</div><div class="ttdef"><b>Definition:</b> <a href="drone_8hh_source.html#l00030">drone.hh:30</a></div></div>
+<div class="ttc" id="classdrone_html_a9a52b1beb50f55fc8d3b44b546bb1264"><div class="ttname"><a href="classdrone.html#a9a52b1beb50f55fc8d3b44b546bb1264">drone::rotor3</a></div><div class="ttdeci">hexa rotor3</div><div class="ttdef"><b>Definition:</b> <a href="drone_8hh_source.html#l00031">drone.hh:31</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li><li class="navelem"><a class="el" href="drone_8hh.html">drone.hh</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

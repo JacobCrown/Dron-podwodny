@@ -1,0 +1,38 @@
+digraph "scene"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="scene",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" link" ,fontname="Helvetica"];
+  Node2 [label="PzG::LaczeDoGNUPlota",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pz_g_1_1_lacze_do_g_n_u_plota.html",tooltip="Klasa realizuje interfejs do programu GNUPlot. "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Dron" ,fontname="Helvetica"];
+  Node3 [label="drone",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdrone.html",tooltip="Modeluje pojęcie drona. "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" korpus" ,fontname="Helvetica"];
+  Node4 [label="cube",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcube.html",tooltip="Modeluje pojęcie prostopadłościanu. "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="shape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classshape.html",tooltip="Modeluje pojęcie kształtu. "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="surface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsurface.html",tooltip="Modeluje pojęcie powierzchni. "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" center" ,fontname="Helvetica"];
+  Node7 [label="wektor3D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classwektor3_d.html",tooltip="Modeluje pojęcie wektorów w 3 wymiarach. "];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="wektor\< double, 3 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classwektor.html"];
+  Node9 -> Node8 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< double, 3 \>" ,fontname="Helvetica"];
+  Node9 [label="wektor\< type, size \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classwektor.html",tooltip="Modeluje pojęcie wektora. "];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coordinates" ,fontname="Helvetica"];
+  Node10 [label="type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" trans" ,fontname="Helvetica"];
+  Node11 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rotor1\nrotor2\nrotor3\nrotor4" ,fontname="Helvetica"];
+  Node11 [label="hexa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classhexa.html",tooltip="Modeluje pojęcie graniastosłupa o podstawie sześciokąta. "];
+  Node5 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rotor2_trans\nrotor1_trans\nrotor3_trans\nrotor4_trans" ,fontname="Helvetica"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" obj_1\nobj_2" ,fontname="Helvetica"];
+  Node12 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Dno" ,fontname="Helvetica"];
+  Node12 [label="ground",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classground.html",tooltip="Modeluje pojęcie powierzchni dna. "];
+  Node6 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" obj_3" ,fontname="Helvetica"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" droneCenter" ,fontname="Helvetica"];
+  Node13 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Woda" ,fontname="Helvetica"];
+  Node13 [label="water",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classwater.html",tooltip="Modeluje pojęcie powierzchni wody. "];
+  Node6 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

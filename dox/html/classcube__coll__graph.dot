@@ -1,0 +1,19 @@
+digraph "cube"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="cube",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="shape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classshape.html",tooltip="Modeluje pojęcie kształtu. "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="surface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsurface.html",tooltip="Modeluje pojęcie powierzchni. "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" center" ,fontname="Helvetica"];
+  Node6 [label="wektor3D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classwektor3_d.html",tooltip="Modeluje pojęcie wektorów w 3 wymiarach. "];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="wektor\< double, 3 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classwektor.html"];
+  Node8 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< double, 3 \>" ,fontname="Helvetica"];
+  Node8 [label="wektor\< type, size \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classwektor.html",tooltip="Modeluje pojęcie wektora. "];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coordinates" ,fontname="Helvetica"];
+  Node9 [label="type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" trans" ,fontname="Helvetica"];
+}

@@ -1,0 +1,19 @@
+digraph "scene::addObsticle"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="scene::addObsticle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="shape::changeTmp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classshape.html#aa1a2d4e309a6f48b0cd6a8f413e7cad7",tooltip="zmienia nazwę pliku tymczasowego "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="shape::translate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classshape.html#ac53915874f4bec83c9c7967aa245f4b3",tooltip="Zapamiętuje wektor translacji. "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="shape::save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classshape.html#ad7a4d1e85f10fcb4f100adec81fc0563",tooltip="zapisuje aktualne położenie kształtu do pliku "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="macierz3D::setRotationZ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmacierz3_d.html#a16166e41f063ad2e6fcaf61a42e13610"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="macierz3D::convertAngleTo\lRadian",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmacierz3_d.html#adcfa9be065de99af1bab86f6c312dd9c",tooltip="zamienia stopnie na radiany "];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="shape::returnCenter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classshape.html#a50b8ce90802becc732c560b57d024801",tooltip="powraca do początkowej pozycji "];
+}

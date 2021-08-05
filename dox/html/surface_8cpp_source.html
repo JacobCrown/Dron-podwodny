@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron z przeszkodami: Plik źródłowy /home/jakub/Pulpit/visual_studio/pawlik elo elo/prj/src/surface.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron z przeszkodami
+   &#160;<span id="projectnumber">0,1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('surface_8cpp_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">surface.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="surface_8cpp.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="surface_8hh.html">surface.hh</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classsurface.html#a46fd6b3748587e054cfbf2064f82171d">   10</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classsurface.html#a46fd6b3748587e054cfbf2064f82171d">surface::setCenter</a>()</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="classwektor3_d.html">wektor3D</a> tmp = <a class="code" href="classwektor3_d.html">wektor3D</a>(0, 0, 0);</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">double</span> i;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt; vertex.size(); i++)  {tmp += vertex[i];}</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    center = tmp / i;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div><div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="classsurface_html_a46fd6b3748587e054cfbf2064f82171d"><div class="ttname"><a href="classsurface.html#a46fd6b3748587e054cfbf2064f82171d">surface::setCenter</a></div><div class="ttdeci">void setCenter()</div><div class="ttdoc">Ustawia do pozycji początkowej. </div><div class="ttdef"><b>Definition:</b> <a href="surface_8cpp_source.html#l00010">surface.cpp:10</a></div></div>
+<div class="ttc" id="classwektor3_d_html"><div class="ttname"><a href="classwektor3_d.html">wektor3D</a></div><div class="ttdoc">Modeluje pojęcie wektorów w 3 wymiarach. </div><div class="ttdef"><b>Definition:</b> <a href="wektor3_d_8hh_source.html#l00027">wektor3D.hh:27</a></div></div>
+<div class="ttc" id="surface_8hh_html"><div class="ttname"><a href="surface_8hh.html">surface.hh</a></div><div class="ttdoc">Definicja metody klasy surface. </div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_400757c3a0df52e783ed9699284f29ce.html">src</a></li><li class="navelem"><a class="el" href="surface_8cpp.html">surface.cpp</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

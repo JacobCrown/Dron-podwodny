@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron z przeszkodami: Plik źródłowy /home/jakub/Pulpit/visual_studio/pawlik elo elo/prj/inc/shape.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron z przeszkodami
+   &#160;<span id="projectnumber">0,1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('shape_8hh_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">shape.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="shape_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SHAPE_HH</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SHAPE_HH</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">/*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="surface_8hh.html">surface.hh</a>&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">/*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */</span></div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classshape.html">   26</a></span>&#160;<span class="keyword">class </span><a class="code" href="classshape.html">shape</a></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;: <span class="keyword">public</span> <a class="code" href="classsurface.html">surface</a></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">protected</span>:</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classshape.html#ae39b3a4dd4ee3b8ac0fac597d4bc81de">   31</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="classshape.html#ae39b3a4dd4ee3b8ac0fac597d4bc81de">file_tmp</a>;</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classshape.html#a6bc4f46edc77f02c60dce6161767d7f4">   32</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="classshape.html#a6bc4f46edc77f02c60dce6161767d7f4">angle</a>;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classshape.html#a4ffee0b51875aed2d0c70ef67f728b7a">   33</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="classshape.html#a4ffee0b51875aed2d0c70ef67f728b7a">angleToRadian</a>(<span class="keywordtype">double</span> data)<span class="keyword"> const </span>{<span class="keywordflow">return</span> (data * M_PI / 180);}</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classshape.html#a11d627118800290c937d88b8888aa4df">   35</a></span>&#160;    <a class="code" href="classwektor3_d.html">wektor3D</a> <a class="code" href="classshape.html#a11d627118800290c937d88b8888aa4df">trans</a>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="classwektor3_d.html">wektor3D</a> setTrans(<span class="keywordtype">double</span>, <span class="keywordtype">double</span>) <span class="keyword">const</span>;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">public</span>: </div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classshape.html#a11e471a09986b9e0a276c259058ea264">   43</a></span>&#160;    <a class="code" href="classshape.html#a11e471a09986b9e0a276c259058ea264">shape</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp; main_file, <span class="keyword">const</span> <span class="keywordtype">string</span> &amp; tmp_file)</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    : <a class="code" href="classsurface.html">surface</a>(main_file) {angle = 0; file_tmp = tmp_file;}</div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classshape.html#aa1a2d4e309a6f48b0cd6a8f413e7cad7">   49</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classshape.html#aa1a2d4e309a6f48b0cd6a8f413e7cad7">changeTmp</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp; tmp_file) {file_tmp = tmp_file;}</div><div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classshape.html#a2542cb672400581cb8a0395219d07216">   54</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classshape.html#a2542cb672400581cb8a0395219d07216">turnByAng</a>(<span class="keywordtype">double</span> data)             {angle += data;}</div><div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="classshape.html#ac53915874f4bec83c9c7967aa245f4b3">   59</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classshape.html#ac53915874f4bec83c9c7967aa245f4b3">translate</a>(<span class="keyword">const</span> <a class="code" href="classwektor3_d.html">wektor3D</a> &amp; data)   {trans += data;}</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> moveStraigth(<span class="keywordtype">double</span>, <span class="keywordtype">double</span>, <span class="keywordtype">double</span>);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> rotate(<span class="keywordtype">double</span>);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">void</span> spin();</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="classshape.html#a50b8ce90802becc732c560b57d024801">   82</a></span>&#160;    <a class="code" href="classwektor3_d.html">wektor3D</a> <a class="code" href="classshape.html#a50b8ce90802becc732c560b57d024801">returnCenter</a>()<span class="keyword"> const   </span>{<span class="keywordflow">return</span> center + trans;}</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">void</span> save(<span class="keyword">const</span> <a class="code" href="classwektor3_d.html">wektor3D</a> &amp;);</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> save();</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;};</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">/*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */</span></div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classshape_html_a11e471a09986b9e0a276c259058ea264"><div class="ttname"><a href="classshape.html#a11e471a09986b9e0a276c259058ea264">shape::shape</a></div><div class="ttdeci">shape(const string &amp;main_file, const string &amp;tmp_file)</div><div class="ttdoc">konstruktor </div><div class="ttdef"><b>Definition:</b> <a href="shape_8hh_source.html#l00043">shape.hh:43</a></div></div>
+<div class="ttc" id="classshape_html"><div class="ttname"><a href="classshape.html">shape</a></div><div class="ttdoc">Modeluje pojęcie kształtu. </div><div class="ttdef"><b>Definition:</b> <a href="shape_8hh_source.html#l00026">shape.hh:26</a></div></div>
+<div class="ttc" id="classshape_html_a11d627118800290c937d88b8888aa4df"><div class="ttname"><a href="classshape.html#a11d627118800290c937d88b8888aa4df">shape::trans</a></div><div class="ttdeci">wektor3D trans</div><div class="ttdef"><b>Definition:</b> <a href="shape_8hh_source.html#l00035">shape.hh:35</a></div></div>
+<div class="ttc" id="classsurface_html"><div class="ttname"><a href="classsurface.html">surface</a></div><div class="ttdoc">Modeluje pojęcie powierzchni. </div><div class="ttdef"><b>Definition:</b> <a href="surface_8hh_source.html#l00029">surface.hh:29</a></div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="classshape_html_a50b8ce90802becc732c560b57d024801"><div class="ttname"><a href="classshape.html#a50b8ce90802becc732c560b57d024801">shape::returnCenter</a></div><div class="ttdeci">wektor3D returnCenter() const</div><div class="ttdoc">powraca do początkowej pozycji </div><div class="ttdef"><b>Definition:</b> <a href="shape_8hh_source.html#l00082">shape.hh:82</a></div></div>
+<div class="ttc" id="classwektor3_d_html"><div class="ttname"><a href="classwektor3_d.html">wektor3D</a></div><div class="ttdoc">Modeluje pojęcie wektorów w 3 wymiarach. </div><div class="ttdef"><b>Definition:</b> <a href="wektor3_d_8hh_source.html#l00027">wektor3D.hh:27</a></div></div>
+<div class="ttc" id="surface_8hh_html"><div class="ttname"><a href="surface_8hh.html">surface.hh</a></div><div class="ttdoc">Definicja metody klasy surface. </div></div>
+<div class="ttc" id="classshape_html_a6bc4f46edc77f02c60dce6161767d7f4"><div class="ttname"><a href="classshape.html#a6bc4f46edc77f02c60dce6161767d7f4">shape::angle</a></div><div class="ttdeci">double angle</div><div class="ttdef"><b>Definition:</b> <a href="shape_8hh_source.html#l00032">shape.hh:32</a></div></div>
+<div class="ttc" id="classshape_html_aa1a2d4e309a6f48b0cd6a8f413e7cad7"><div class="ttname"><a href="classshape.html#aa1a2d4e309a6f48b0cd6a8f413e7cad7">shape::changeTmp</a></div><div class="ttdeci">void changeTmp(const string &amp;tmp_file)</div><div class="ttdoc">zmienia nazwę pliku tymczasowego </div><div class="ttdef"><b>Definition:</b> <a href="shape_8hh_source.html#l00049">shape.hh:49</a></div></div>
+<div class="ttc" id="classshape_html_ae39b3a4dd4ee3b8ac0fac597d4bc81de"><div class="ttname"><a href="classshape.html#ae39b3a4dd4ee3b8ac0fac597d4bc81de">shape::file_tmp</a></div><div class="ttdeci">string file_tmp</div><div class="ttdef"><b>Definition:</b> <a href="shape_8hh_source.html#l00031">shape.hh:31</a></div></div>
+<div class="ttc" id="classshape_html_ac53915874f4bec83c9c7967aa245f4b3"><div class="ttname"><a href="classshape.html#ac53915874f4bec83c9c7967aa245f4b3">shape::translate</a></div><div class="ttdeci">void translate(const wektor3D &amp;data)</div><div class="ttdoc">Zapamiętuje wektor translacji. </div><div class="ttdef"><b>Definition:</b> <a href="shape_8hh_source.html#l00059">shape.hh:59</a></div></div>
+<div class="ttc" id="classshape_html_a2542cb672400581cb8a0395219d07216"><div class="ttname"><a href="classshape.html#a2542cb672400581cb8a0395219d07216">shape::turnByAng</a></div><div class="ttdeci">void turnByAng(double data)</div><div class="ttdoc">Obraca się o zadany kąt. </div><div class="ttdef"><b>Definition:</b> <a href="shape_8hh_source.html#l00054">shape.hh:54</a></div></div>
+<div class="ttc" id="classshape_html_a4ffee0b51875aed2d0c70ef67f728b7a"><div class="ttname"><a href="classshape.html#a4ffee0b51875aed2d0c70ef67f728b7a">shape::angleToRadian</a></div><div class="ttdeci">double angleToRadian(double data) const</div><div class="ttdef"><b>Definition:</b> <a href="shape_8hh_source.html#l00033">shape.hh:33</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li><li class="navelem"><a class="el" href="shape_8hh.html">shape.hh</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

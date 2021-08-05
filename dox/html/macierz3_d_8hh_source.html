@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron z przeszkodami: Plik źródłowy /home/jakub/Pulpit/visual_studio/pawlik elo elo/prj/inc/macierz3D.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron z przeszkodami
+   &#160;<span id="projectnumber">0,1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('macierz3_d_8hh_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">macierz3D.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="macierz3_d_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef MACIERZ3D_HH</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define MACIERZ3D_HH</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">/*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="macierz_8hh.html">macierz.hh</a>&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">/*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */</span></div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classmacierz3_d.html">   29</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmacierz3_d.html">macierz3D</a></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;: <span class="keyword">public</span> <a class="code" href="classmacierz.html">macierz</a>&lt;double, 3&gt;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">double</span> convertAngleToRadian(<span class="keywordtype">double</span>) <span class="keyword">const</span>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">double</span> convertRadianToAngle(<span class="keywordtype">double</span>) <span class="keyword">const</span>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    </div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="classmacierz3_d.html">macierz3D</a>() = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classmacierz3_d.html#ac6b7101a3492824301396963a3dde09c">   54</a></span>&#160;    <a class="code" href="classmacierz3_d.html#ac6b7101a3492824301396963a3dde09c">macierz3D</a>(<span class="keyword">const</span> <a class="code" href="classmacierz.html">macierz&lt;double, 3&gt;</a> &amp; data)</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    : <a class="code" href="classmacierz.html">macierz</a>&lt;double, 3&gt; (data){}</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> setRotationX(<span class="keywordtype">double</span>);</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> setRotationY(<span class="keywordtype">double</span>);</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">void</span> setRotationZ(<span class="keywordtype">double</span>);</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;};</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">/*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */</span></div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classmacierz3_d_html"><div class="ttname"><a href="classmacierz3_d.html">macierz3D</a></div><div class="ttdoc">Modeluje pojęcie Macierzy rotacji. </div><div class="ttdef"><b>Definition:</b> <a href="macierz3_d_8hh_source.html#l00029">macierz3D.hh:29</a></div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="macierz_8hh_html"><div class="ttname"><a href="macierz_8hh.html">macierz.hh</a></div><div class="ttdoc">Definicja klasy macierz. </div></div>
+<div class="ttc" id="classmacierz3_d_html_ac6b7101a3492824301396963a3dde09c"><div class="ttname"><a href="classmacierz3_d.html#ac6b7101a3492824301396963a3dde09c">macierz3D::macierz3D</a></div><div class="ttdeci">macierz3D(const macierz&lt; double, 3 &gt; &amp;data)</div><div class="ttdoc">Konstruktor kopiujący. </div><div class="ttdef"><b>Definition:</b> <a href="macierz3_d_8hh_source.html#l00054">macierz3D.hh:54</a></div></div>
+<div class="ttc" id="classmacierz_html"><div class="ttname"><a href="classmacierz.html">macierz</a></div><div class="ttdoc">Modeluje pojęcie macierzy. </div><div class="ttdef"><b>Definition:</b> <a href="macierz_8hh_source.html#l00032">macierz.hh:32</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li><li class="navelem"><a class="el" href="macierz3_d_8hh.html">macierz3D.hh</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>
